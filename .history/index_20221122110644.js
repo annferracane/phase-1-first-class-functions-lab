@@ -16,10 +16,11 @@ function createFareMultiplier(fareMultiplier) {
 
 
 const fareDoubler = fare => createFareMultiplier(2)(fare);
+
 const fareTripler = fare => createFareMultiplier(3)(fare);
 
-// console.log(fareDoubler(10));
-// console.log(fareTripler(10));
+console.log(fareDoubler(10));
+console.log(fareTripler(10));
 
 
 function selectDifferentDrivers(drivers, whichDriversFunction) {
